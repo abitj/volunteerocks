@@ -1,3 +1,1 @@
-"helpeople" 
-"# helpeople" 
-"# helpeople" 
+I have named our team app as VolunteeRocks. 
