@@ -1,0 +1,6 @@
+[submodule "add functionality2"]
+	path = add functionality2
+	url = https://github.com/SeaPride67/spring-boot-hibernate-thymeleaf.git
+[submodule "add functionality"]
+	path = add functionality
+	url = https://github.com/SeaPride67/spring-boot-hibernate-thymeleaf.git
