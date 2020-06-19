@@ -1,12 +1,9 @@
-I have named our team app as VolunteeRocks. 
+The volunteeRocks web application is designed to link volunteers to opportunities near them! 
 
+Organizations can post opportunities which will include a title and description of the volunteer opportunity, the location, and the number of volunteers needed. 
 
-How to run VolunteeRocks App
-1. Build the server 
-        mvn spring-boot:run  
+Volunteers can search an area by zip code. They will then be able to view a list of available opportunities in that area. Volunteers can then click and add themselves to the opportunity of their choosing if volunteers are still needed.
 
-2. Run the app
-    spring run app.groovy
-
-3. Webpage UI
-    localhost:8080
+Release Notes (what is currently working):
+        Currently volunteers can sign up using their name, location, and email address. 
+        A volunteer can also be edited or deleted.
