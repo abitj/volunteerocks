@@ -8,6 +8,7 @@ Release Notes (what is currently working):
         Currently volunteers can sign up using their name, location, and email address. 
         A volunteer can also be edited or deleted.
 
+
 How to run VolunteeRocks App:
 
 Go to addFunc directory 
@@ -17,3 +18,21 @@ Build the server by running the command < mvn spring-boot:run >
 Run the app using the command < spring run app.groovy >
 
 Go to a web browser and type in < localhost:8080 >
+
+
+
+How to use User Interface:
+
+Click on add Volunteer Information button
+
+Enter volunteer information in the text boxes (full name, location, email)
+
+Click on Submit button
+
+
+
+Editing volunteer information:
+
+Click on material icon for edit then change desired information
+
+Click on material icon for delete then delete volunteer information 
