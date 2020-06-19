@@ -7,3 +7,13 @@ Volunteers can search an area by zip code. They will then be able to view a list
 Release Notes (what is currently working):
         Currently volunteers can sign up using their name, location, and email address. 
         A volunteer can also be edited or deleted.
+
+How to run VolunteeRocks App:
+
+Go to addFunc directory 
+
+Build the server by running the command < mvn spring-boot:run >
+
+Run the app using the command < spring run app.groovy >
+
+Go to a web browser and type in < localhost:8080 >
