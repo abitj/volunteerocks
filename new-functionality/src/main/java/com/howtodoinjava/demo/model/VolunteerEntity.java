@@ -9,7 +9,7 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name="TBL_EMPLOYEES")
-public class EmployeeEntity {
+public class VolunteerEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -58,7 +58,7 @@ public class EmployeeEntity {
 
     @Override
     public String toString() {
-        return "EmployeeEntity [id=" + id + ", volFullname=" + volFullName + 
+        return "VolunteerEntity [id=" + id + ", volFullname=" + volFullName + 
                 ", volLocation=" + volLocation + ", volEmail=" + volEmail   + "]";
     }
 }
