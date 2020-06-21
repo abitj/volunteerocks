@@ -11,50 +11,50 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
 import com.howtodoinjava.demo.exception.RecordNotFoundException;
-import com.howtodoinjava.demo.model.EmployeeEntity;
-import com.howtodoinjava.demo.service.EmployeeService;
+import com.howtodoinjava.demo.model.VolunteerEntity;
+import com.howtodoinjava.demo.service.VolunteerService;
 
 @Controller
 @RequestMapping("/")
-public class EmployeeMvcController 
+public class VolunteerMvcController 
 {
 	@Autowired
-	EmployeeService service;
+	VolunteerService service;
 
 	@RequestMapping
-	public String getAllEmployees(Model model) 
+	public String getAllVolunteers(Model model) 
 	{
-		List<EmployeeEntity> list = service.getAllEmployees();
+		List<VolunteerEntity> list = service.getAllVolunteers();
 
 		model.addAttribute("employees", list);
 		return "list-employees";
 	}
 
 	@RequestMapping(path = {"/edit", "/edit/{id}"})
-	public String editEmployeeById(Model model, @PathVariable("id") Optional<Long> id) 
+	public String editVolunteerById(Model model, @PathVariable("id") Optional<Long> id) 
 							throws RecordNotFoundException 
 	{
 		if (id.isPresent()) {
-			EmployeeEntity entity = service.getEmployeeById(id.get());
+			VolunteerEntity entity = service.getVolunteerById(id.get());
 			model.addAttribute("employee", entity);
 		} else {
-			model.addAttribute("employee", new EmployeeEntity());
+			model.addAttribute("employee", new VolunteerEntity());
 		}
 		return "add-edit-employee";
 	}
 	
 	@RequestMapping(path = "/delete/{id}")
-	public String deleteEmployeeById(Model model, @PathVariable("id") Long id) 
+	public String deleteVolunteerById(Model model, @PathVariable("id") Long id) 
 							throws RecordNotFoundException 
 	{
-		service.deleteEmployeeById(id);
+		service.deleteVolunteerById(id);
 		return "redirect:/";
 	}
 
-	@RequestMapping(path = "/createEmployee", method = RequestMethod.POST)
-	public String createOrUpdateEmployee(EmployeeEntity employee) 
+	@RequestMapping(path = "/createVolunteer", method = RequestMethod.POST)
+	public String createOrUpdateVolunteer(VolunteerEntity employee) 
 	{
-		service.createOrUpdateEmployee(employee);
+		service.createOrUpdateVolunteer(employee);
 		return "redirect:/";
 	}
 }

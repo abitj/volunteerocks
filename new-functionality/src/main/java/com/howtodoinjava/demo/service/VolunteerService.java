@@ -8,29 +8,29 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.howtodoinjava.demo.exception.RecordNotFoundException;
-import com.howtodoinjava.demo.model.EmployeeEntity;
-import com.howtodoinjava.demo.repository.EmployeeRepository;
+import com.howtodoinjava.demo.model.VolunteerEntity;
+import com.howtodoinjava.demo.repository.VolunteerRepository;
 
 @Service
-public class EmployeeService {
+public class VolunteerService {
 	
 	@Autowired
-	EmployeeRepository repository;
+	VolunteerRepository repository;
 	
-	public List<EmployeeEntity> getAllEmployees()
+	public List<VolunteerEntity> getAllVolunteers()
 	{
-		List<EmployeeEntity> result = (List<EmployeeEntity>) repository.findAll();
+		List<VolunteerEntity> result = (List<VolunteerEntity>) repository.findAll();
 		
 		if(result.size() > 0) {
 			return result;
 		} else {
-			return new ArrayList<EmployeeEntity>();
+			return new ArrayList<VolunteerEntity>();
 		}
 	}
 	
-	public EmployeeEntity getEmployeeById(Long id) throws RecordNotFoundException 
+	public VolunteerEntity getVolunteerById(Long id) throws RecordNotFoundException 
 	{
-		Optional<EmployeeEntity> employee = repository.findById(id);
+		Optional<VolunteerEntity> employee = repository.findById(id);
 		
 		if(employee.isPresent()) {
 			return employee.get();
@@ -39,7 +39,7 @@ public class EmployeeService {
 		}
 	}
 	
-	public EmployeeEntity createOrUpdateEmployee(EmployeeEntity entity) 
+	public VolunteerEntity createOrUpdateVolunteer(VolunteerEntity entity) 
 	{
 		if(entity.getId()  == null) 
 		{
@@ -49,11 +49,11 @@ public class EmployeeService {
 		} 
 		else 
 		{
-			Optional<EmployeeEntity> employee = repository.findById(entity.getId());
+			Optional<VolunteerEntity> employee = repository.findById(entity.getId());
 			
 			if(employee.isPresent()) 
 			{
-				EmployeeEntity newEntity = employee.get();
+				VolunteerEntity newEntity = employee.get();
 				newEntity.setVolEmail(entity.getVolEmail());
 				newEntity.setVolFullName(entity.getVolFullName());
 				newEntity.setVolLocation(entity.getVolLocation());
@@ -69,9 +69,9 @@ public class EmployeeService {
 		}
 	} 
 	
-	public void deleteEmployeeById(Long id) throws RecordNotFoundException 
+	public void deleteVolunteerById(Long id) throws RecordNotFoundException 
 	{
-		Optional<EmployeeEntity> employee = repository.findById(id);
+		Optional<VolunteerEntity> employee = repository.findById(id);
 		
 		if(employee.isPresent()) 
 		{
