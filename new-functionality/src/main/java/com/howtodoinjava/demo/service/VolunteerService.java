@@ -30,12 +30,12 @@ public class VolunteerService {
 	
 	public VolunteerEntity getVolunteerById(Long id) throws RecordNotFoundException 
 	{
-		Optional<VolunteerEntity> employee = repository.findById(id);
+		Optional<VolunteerEntity> volunteer = repository.findById(id);
 		
-		if(employee.isPresent()) {
-			return employee.get();
+		if(volunteer.isPresent()) {
+			return volunteer.get();
 		} else {
-			throw new RecordNotFoundException("No employee record exist for given id");
+			throw new RecordNotFoundException("No volunteer record exist for given id");
 		}
 	}
 	
@@ -49,11 +49,11 @@ public class VolunteerService {
 		} 
 		else 
 		{
-			Optional<VolunteerEntity> employee = repository.findById(entity.getId());
+			Optional<VolunteerEntity> volunteer = repository.findById(entity.getId());
 			
-			if(employee.isPresent()) 
+			if(volunteer.isPresent()) 
 			{
-				VolunteerEntity newEntity = employee.get();
+				VolunteerEntity newEntity = volunteer.get();
 				newEntity.setVolEmail(entity.getVolEmail());
 				newEntity.setVolFullName(entity.getVolFullName());
 				newEntity.setVolLocation(entity.getVolLocation());
@@ -71,13 +71,13 @@ public class VolunteerService {
 	
 	public void deleteVolunteerById(Long id) throws RecordNotFoundException 
 	{
-		Optional<VolunteerEntity> employee = repository.findById(id);
+		Optional<VolunteerEntity> volunteer = repository.findById(id);
 		
-		if(employee.isPresent()) 
+		if(volunteer.isPresent()) 
 		{
 			repository.deleteById(id);
 		} else {
-			throw new RecordNotFoundException("No employee record exist for given id");
+			throw new RecordNotFoundException("No volunteer record exist for given id");
 		}
 	} 
 }

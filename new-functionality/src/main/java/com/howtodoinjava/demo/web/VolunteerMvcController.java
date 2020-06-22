@@ -26,8 +26,8 @@ public class VolunteerMvcController
 	{
 		List<VolunteerEntity> list = service.getAllVolunteers();
 
-		model.addAttribute("employees", list);
-		return "list-employees";
+		model.addAttribute("volunteers", list);
+		return "list-volunteers";
 	}
 
 	@RequestMapping(path = {"/edit", "/edit/{id}"})
@@ -36,11 +36,11 @@ public class VolunteerMvcController
 	{
 		if (id.isPresent()) {
 			VolunteerEntity entity = service.getVolunteerById(id.get());
-			model.addAttribute("employee", entity);
+			model.addAttribute("volunteer", entity);
 		} else {
-			model.addAttribute("employee", new VolunteerEntity());
+			model.addAttribute("volunteer", new VolunteerEntity());
 		}
-		return "add-edit-employee";
+		return "add-edit-volunteer";
 	}
 	
 	@RequestMapping(path = "/delete/{id}")
@@ -52,9 +52,9 @@ public class VolunteerMvcController
 	}
 
 	@RequestMapping(path = "/createVolunteer", method = RequestMethod.POST)
-	public String createOrUpdateVolunteer(VolunteerEntity employee) 
+	public String createOrUpdateVolunteer(VolunteerEntity volunteer) 
 	{
-		service.createOrUpdateVolunteer(employee);
+		service.createOrUpdateVolunteer(volunteer);
 		return "redirect:/";
 	}
 }

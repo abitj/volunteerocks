@@ -14,7 +14,7 @@
     <div class="container my-2">
     <div class="card">
     <div class="card-body">
-        <div th:switch="${employees}" class="container my-5">
+        <div th:switch="${volunteers}" class="container my-5">
             <p class="my-5">
                 <a href="/edit" class="btn btn-primary">
                 <i class="fas fa-user-plus ml-2"> Add Volunteer </i></a>
@@ -33,17 +33,17 @@
                             </tr>
                         </thead>
                         <tbody>
-                            <tr th:each="employee : ${employees}">
-                                <td th:text="${employee.volFullName}"></td>
-                                <td th:text="${employee.volLocation}"></td>
-                                <td th:text="${employee.volEmail}"></td>
+                            <tr th:each="volunteer : ${volunteers}">
+                                <td th:text="${volunteer.volFullName}"></td>
+                                <td th:text="${volunteer.volLocation}"></td>
+                                <td th:text="${volunteer.volEmail}"></td>
                                 <td>
-                                    <a th:href="@{/edit/{id}(id=${employee.id})}" class="btn btn-primary">
+                                    <a th:href="@{/edit/{id}(id=${volunteer.id})}" class="btn btn-primary">
                                         <i class="fas fa-user-edit ml-2"></i>
                                     </a>
                                 </td>
                                 <td>
-                                    <a th:href="@{/delete/{id}(id=${employee.id})}" class="btn btn-primary">
+                                    <a th:href="@{/delete/{id}(id=${volunteer.id})}" class="btn btn-primary">
                                         <i class="fas fa-user-times ml-2"></i>
                                     </a>
                                 </td>
