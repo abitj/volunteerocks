@@ -839,3 +839,51 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springfra
 2020-06-17 22:24:02,893 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2020-06-17 22:24:02,895 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2020-06-17 22:24:02,896 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\User\OneDrive\Desktop\volunteerocks\demo\addFunc\src\test\resources
+2020-06-28 23:22:06,928 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2020-06-28 23:29:11,708 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.howtodoinjava:demo:0.0.1-SNAPSHOT @ C:\Users\User\OneDrive\Desktop\addFunc\pom.xml.
+2020-06-28 23:29:25,532 [Worker-11: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /demo/src/main/java
+2020-06-28 23:29:25,532 [Worker-11: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /demo/src/main/resources
+2020-06-28 23:29:25,532 [Worker-11: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /demo/src/main/resources
+2020-06-28 23:29:25,532 [Worker-11: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /demo/src/test/java
+2020-06-28 23:29:26,645 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 31 sec
+2020-06-28 23:29:37,276 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-28 23:29:37,303 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-06-28 23:29:37,337 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2020-06-28 23:29:37,393 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-28 23:29:37,393 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\User\OneDrive\Desktop\addFunc\src\test\resources
+2020-06-28 23:30:10,179 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-28 23:30:10,179 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-06-28 23:30:10,179 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-06-28 23:30:10,179 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-28 23:30:10,179 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\User\OneDrive\Desktop\addFunc\src\test\resources
+2020-06-28 23:31:05,038 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-28 23:31:05,038 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-06-28 23:31:05,053 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2020-06-28 23:31:05,100 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-28 23:31:05,100 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\User\OneDrive\Desktop\addFunc\src\test\resources
+2020-06-28 23:53:24,004 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2020-06-28 23:53:35,767 [Worker-11: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.howtodoinjava:demo:0.0.1-SNAPSHOT @ C:\Users\User\OneDrive\Desktop\addFunc\pom.xml.
+2020-06-28 23:53:41,383 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-28 23:53:41,399 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-06-28 23:53:41,415 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2020-06-28 23:53:41,415 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-28 23:53:41,430 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\User\OneDrive\Desktop\addFunc\src\test\resources
+2020-06-29 00:01:23,975 [Worker-3: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2020-06-29 00:01:27,164 [Worker-3: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.howtodoinjava:demo:0.0.1-SNAPSHOT @ C:\Users\User\OneDrive\Desktop\addFunc\pom.xml.
+2020-06-29 00:01:29,720 [Worker-3: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /demo/src/main/java
+2020-06-29 00:01:29,720 [Worker-3: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /demo/src/main/resources
+2020-06-29 00:01:29,720 [Worker-3: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /demo/src/main/resources
+2020-06-29 00:01:29,720 [Worker-3: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /demo/src/test/java
+2020-06-29 00:01:30,846 [Worker-3: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 6 sec
+2020-06-29 00:01:38,323 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-29 00:01:38,323 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-06-29 00:01:38,338 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2020-06-29 00:01:38,385 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-29 00:01:38,385 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\User\OneDrive\Desktop\addFunc\src\test\resources
+2020-06-29 00:07:38,035 [Worker-7: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.howtodoinjava:demo:0.0.1-SNAPSHOT @ C:\Users\User\OneDrive\Desktop\addFunc\pom.xml.
+2020-06-29 00:07:45,529 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-29 00:07:45,533 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-06-29 00:07:45,550 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2020-06-29 00:07:45,557 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-29 00:07:45,558 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\User\OneDrive\Desktop\addFunc\src\test\resources
+2020-06-29 00:07:52,953 [Worker-13: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
