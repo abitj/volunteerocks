@@ -1,6 +1,6 @@
 node {  
     stage 'Clone the project'
-    git 'https://github.com/aabit/volunteeerocks.git'
+    git 'https://github.com/aabit/volunteerocks.git'
     
     stage('Build') { 
         sh "mvn -version"
