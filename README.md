@@ -6,9 +6,14 @@ Organizations can post opportunities which will include a title, the location, a
 
 Volunteers can search opportunities by zip code. They will then be able to view a list of available opportunities in that area. Volunteers can add themselves to the opportunity of their choice.
 
-**Release Notes (what is currently working):**
+**Release Notes M1(what is currently working):**
         Currently volunteers can sign up using their name, location, and email address. 
         A volunteer can also be edited or deleted.
+        
+**Release Notes M2(what is currently working):**
+        Currently volunteers can sign up using their name, location, and email address. 
+        A volunteer can also be edited or deleted.
+        Test cases and test scripts are in progress and will be included in next Milestone.
 
 
 **How to run VolunteeRocks App:**
