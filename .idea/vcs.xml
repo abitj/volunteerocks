@@ -3,6 +3,7 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/add functionality" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/addFunc" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/demo/addFunc" vcs="Git" />
   </component>
 </project>

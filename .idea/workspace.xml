@@ -1,15 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:heroku" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="e88b12f2-99de-495a-a4a7-a5a3feb63091" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitmodules" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/add_func.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/app.groovy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/helloWorld/app.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/demo/helloWorld/app.groovy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sqltools_20200613230126_4388.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wireframe.pdf" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/addFunc/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/addFunc/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addFunc/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/addFunc/.classpath" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addFunc/.project" beforeDir="false" afterPath="$PROJECT_DIR$/addFunc/.project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addFunc/package-json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/addFunc/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/addFunc/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addFunc/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/addFunc/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addFunc/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/addFunc/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unit-testing/.project" beforeDir="false" afterPath="$PROJECT_DIR$/unit-testing/.project" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +77,8 @@
       <workItem from="1592446491381" duration="217000" />
       <workItem from="1592446825631" duration="3218000" />
       <workItem from="1592454844705" duration="1064000" />
+      <workItem from="1595202892449" duration="41000" />
+      <workItem from="1595202982409" duration="1028000" />
     </task>
     <task id="LOCAL-00001" summary="Created hello world branch and merged to master.">
       <created>1592448317735</created>
@@ -64,6 +93,17 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Created hello world branch and merged to master." />
@@ -72,10 +112,18 @@
     <option name="LAST_COMMIT_MESSAGE" value="Edited hello world" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="2094" y="151" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595203253815">
+      <screen x="1680" y="-24" width="1920" height="1040" />
+    </state>
+    <state x="2094" y="151" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1010/1680.-24.1920.1040@1680.-24.1920.1040" timestamp="1595203253815" />
     <state x="2157" y="64" key="CommitChangelistDialog2" timestamp="1592455613217">
       <screen x="1680" y="-24" width="1920" height="1040" />
     </state>
     <state x="2157" y="64" key="CommitChangelistDialog2/0.0.1680.1010/1680.-24.1920.1040@1680.-24.1920.1040" timestamp="1592455613217" />
+    <state x="2420" y="251" key="FileChooserDialogImpl" timestamp="1595203391067">
+      <screen x="1680" y="-24" width="1920" height="1040" />
+    </state>
+    <state x="2420" y="251" key="FileChooserDialogImpl/0.0.1680.1010/1680.-24.1920.1040@1680.-24.1920.1040" timestamp="1595203391067" />
     <state x="2232" y="229" key="Vcs.Push.Dialog.v2" timestamp="1592448339196">
       <screen x="1680" y="-24" width="1920" height="1040" />
     </state>
