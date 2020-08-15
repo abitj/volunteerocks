@@ -18,14 +18,14 @@ Volunteers can search opportunities by zip code. They will then be able to view 
 
 **How to run VolunteeRocks App:**
 
-* Go to addFunc directory 
+* Go to volunteerockApp/app directory 
 * Build the server by running the command < mvn spring-boot:run >
-* Run the app using the command < spring run app.groovy >
 * Go to a web browser and type in < localhost:8080 >
 
 **How to use User Interface:**
 
 **Add Volunteer Information:**
+* Go to a web browser and type in <localhost:8080/vol>
 * Click on add Volunteer Information button
 * Enter volunteer information in the text boxes (full name, location, email)
 * Click on Submit button
